@@ -693,8 +693,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"pink",
-			"uri":"blue.png"
+			"name":"red",
+			"uri":"red.png"
 		}
 	],
 	"accessors":[
@@ -1606,7 +1606,7 @@
 	"buffers":[
 		{
 			"byteLength":843796,
-			"uri":"kuruton_pink.bin"
+			"uri":"kuruton_red.bin"
 		}
 	]
 }
