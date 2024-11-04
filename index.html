@@ -28,6 +28,8 @@
             <!--複数画像-->
             <img id="card1" src="marker/1.jpg" />
             <a-asset-item id="model1" src="ARmodel/kuruton_red.gltf"></a-asset-item>
+            <img id="card2" src="marker/2.jpg" />
+            <a-asset-item id="model2" src="ARmodel/kuruton_red.gltf"></a-asset-item>
             <!-- <a-asset-item id="model2" src="ARmodel/thankyou.gltf"></a-asset-item>
             <a-asset-item id="model3" src="ARmodel/kuruton_purple.gltf"></a-asset-item> -->
         </a-assets>
@@ -43,11 +45,16 @@
             
             <a-text value="\ Thank You !!! /" color="#7a1a24" position="0 1 0.1" align="center" width="5"></a-text>
 
-            <!-- 2つ目のモデル -->
-            <!-- <a-gltf-model rotation="0 45 0" position="0 0 0.1" scale="0.2 0.2 0.2" src="#model2" animation-mixer></a-gltf-model> -->
+        </a-entity>
 
-            <!-- 3つ目のモデル -->
-            <!-- <a-gltf-model rotation="0 -45 0" position="-1.5 0 0.1" scale="0.2 0.2 0.2" src="#model3" animation-mixer></a-gltf-model> -->
+        <a-entity mindar-image-target="targetIndex: 1">
+            <a-plane src="#card2" position="0 0 0" height="1" width="auto" rotation="0 0 0"></a-plane>
+
+            <!-- 1つ目のモデル -->
+            <a-gltf-model rotation="0 0 0" position="0 0 0.1" scale="0.2 0.2 0.2" src="#model2" animation-mixer></a-gltf-model>
+            
+            <a-text value="\ Thank You !!! /" color="#7a1a24" position="0 1 0.1" align="center" width="5"></a-text>
+
         </a-entity>
 
     </a-scene>
